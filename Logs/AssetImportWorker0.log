@@ -431,3 +431,27 @@ Received Import Request.
 Start importing Assets/Prefabs/ani.prefab using Guid(4a0907b54136d43a5a0620008ae5d2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66c132e66139c236a51c96b1a3855e5') in 0.007869 seconds
   Import took 0.010372 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 319.645212 seconds.
+  path: Assets/Scripts/AnchorCreator.cs
+  artifactKey: Guid(729141a9fb079ba4fbb0c23a1b2f6093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AnchorCreator.cs using Guid(729141a9fb079ba4fbb0c23a1b2f6093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1262fb5694de557ee8094d725f4058') in 0.166493 seconds
+  Import took 0.168837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.510809 seconds.
+  path: Assets/Scripts/ARFeatheredPlaneMeshVisualizer.cs
+  artifactKey: Guid(1ea0f804b7d19fe469a661a1cf8bfa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARFeatheredPlaneMeshVisualizer.cs using Guid(1ea0f804b7d19fe469a661a1cf8bfa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b30e406b6f4873e4731336047a0b86') in 0.002578 seconds
+  Import took 0.005175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415756 seconds.
+  path: Assets/Scripts/Block.cs
+  artifactKey: Guid(0e391c882ff51e44d95575e351db5ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Block.cs using Guid(0e391c882ff51e44d95575e351db5ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb72eb79a4fdb014f99f91707d3a4b7') in 0.002646 seconds
+  Import took 0.005272 seconds .
+
