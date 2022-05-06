@@ -79,3 +79,47 @@ Received Import Request.
 Start importing Assets/Materials/snow.mat using Guid(68857c646881549199d8eb79520c7a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a60c6f23a00ebad60f8483f41b7ca5d') in 0.019364 seconds
   Import took 0.021703 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.261 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.9 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2212.
+Total: 1.363875 ms (FindLiveObjects: 0.121041 ms CreateObjectMapping: 0.031417 ms MarkObjects: 1.193125 ms  DeleteObjects: 0.017250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 787.774364 seconds.
+  path: Assets/Prefabs/iamsofa.prefab
+  artifactKey: Guid(546b5bac3ab9a13469a8e12d6b9ddec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/iamsofa.prefab using Guid(546b5bac3ab9a13469a8e12d6b9ddec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f46665ecb7d5feef26ec4983f47f3a7') in 0.219853 seconds
+  Import took 0.222317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.375305 seconds.
+  path: Assets/Textures/sofa_black_displacement.jpg
+  artifactKey: Guid(274b55d937b3e464a9bd69a1f9abb55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sofa_black_displacement.jpg using Guid(274b55d937b3e464a9bd69a1f9abb55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3b4b07c59464ad2c10dcb3bbc4fd1c') in 0.430816 seconds
+  Import took 0.433562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.294665 seconds.
+  path: Assets/Textures/sofa_black_displacement.jpg
+  artifactKey: Guid(274b55d937b3e464a9bd69a1f9abb55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sofa_black_displacement.jpg using Guid(274b55d937b3e464a9bd69a1f9abb55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d71c1d2fa6a02d7f4e8c80fb3d93c82') in 0.010697 seconds
+  Import took 0.013210 seconds .
+
