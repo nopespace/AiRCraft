@@ -391,3 +391,43 @@ Received Import Request.
 Start importing Assets/Prefabs/alum.prefab using Guid(84b34c18b4b1a4fbfacbd482b851d802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c2e208aefcbc8838f4ed5adc4ee501') in 0.008000 seconds
   Import took 0.010543 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 234.280596 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(2d8f9a15bc5904db38f58352f870a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(2d8f9a15bc5904db38f58352f870a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5152988220a96c5e9aad2fa88ded6d55') in 0.007724 seconds
+  Import took 0.010353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.377665 seconds.
+  path: Assets/Materials/ani.mat
+  artifactKey: Guid(2d8f9a15bc5904db38f58352f870a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ani.mat using Guid(2d8f9a15bc5904db38f58352f870a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab8bd222d0a3f57e54c551a553dafaf') in 0.007869 seconds
+  Import took 0.010410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.055039 seconds.
+  path: Assets/Prefabs/ani.prefab
+  artifactKey: Guid(4a0907b54136d43a5a0620008ae5d2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ani.prefab using Guid(4a0907b54136d43a5a0620008ae5d2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a651b9eab5bb0c24817c9c5bce9e684b') in 0.012664 seconds
+  Import took 0.015118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004441 seconds.
+  path: Assets/Prefabs/ani.prefab
+  artifactKey: Guid(4a0907b54136d43a5a0620008ae5d2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ani.prefab using Guid(4a0907b54136d43a5a0620008ae5d2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a651b9eab5bb0c24817c9c5bce9e684b') in 0.011131 seconds
+  Import took 0.013881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.314605 seconds.
+  path: Assets/Prefabs/ani.prefab
+  artifactKey: Guid(4a0907b54136d43a5a0620008ae5d2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ani.prefab using Guid(4a0907b54136d43a5a0620008ae5d2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66c132e66139c236a51c96b1a3855e5') in 0.007869 seconds
+  Import took 0.010372 seconds .
+
