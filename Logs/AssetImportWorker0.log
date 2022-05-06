@@ -455,3 +455,35 @@ Received Import Request.
 Start importing Assets/Scripts/Block.cs using Guid(0e391c882ff51e44d95575e351db5ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb72eb79a4fdb014f99f91707d3a4b7') in 0.002646 seconds
   Import took 0.005272 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1392.721454 seconds.
+  path: Assets/Materials/ani.mat
+  artifactKey: Guid(2d8f9a15bc5904db38f58352f870a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ani.mat using Guid(2d8f9a15bc5904db38f58352f870a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76577a03388516ec5ef3c4c64b071f5') in 0.011244 seconds
+  Import took 0.014875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Materials/blue_door.mat
+  artifactKey: Guid(99bbb72fab6114e6a8677e294626404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/blue_door.mat using Guid(99bbb72fab6114e6a8677e294626404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d1dd4ef9eda527728553a7fb8db86a') in 0.118159 seconds
+  Import took 0.120792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Materials/metal.mat
+  artifactKey: Guid(f3d794b6c32b94a3480f960f4282747d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/metal.mat using Guid(f3d794b6c32b94a3480f960f4282747d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33171492912366caf4b60b0fba318e4e') in 0.016234 seconds
+  Import took 0.018443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Materials/green_metal.mat
+  artifactKey: Guid(7026987697dd144f7836d1c696d80215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/green_metal.mat using Guid(7026987697dd144f7836d1c696d80215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db38aaaabe795316fb86b8b0ea3a0de4') in 0.010347 seconds
+  Import took 0.012443 seconds .
+
