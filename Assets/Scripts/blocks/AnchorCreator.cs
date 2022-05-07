@@ -1,9 +1,12 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARSubsystems;
 
 // Modified from ARCore foundation Samples
+// commented by qg
 namespace UnityEngine.XR.ARFoundation.Samples
+// namespace UnityEngine.XR.ARFoundation
 {
     [RequireComponent(typeof(ARAnchorManager))]
     [RequireComponent(typeof(ARRaycastManager))]
@@ -12,11 +15,13 @@ namespace UnityEngine.XR.ARFoundation.Samples
         [SerializeField]
         GameObject m_Prefab;
 
-        public GameObject prefab
-        {
-            get => m_Prefab;
-            set => m_Prefab = value;
-        }
+        public Dropdown dd;
+
+        public GameObject[] prefab;
+        // {
+        //     get => m_Prefab;
+        //     set => m_Prefab = value;
+        // }
 
         public void RemoveAllAnchors()
         {
@@ -33,7 +38,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             m_AnchorManager = GetComponent<ARAnchorManager>();
         }
 
-        ARAnchor CreateAnchor(in ARRaycastHit hit)
+        ARAnchor CreateAnchor(in ARRaycastHit hit, int i)
         {
             ARAnchor anchor = null;
 
@@ -44,7 +49,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 if (planeManager)
                 {
                     var oldPrefab = m_AnchorManager.anchorPrefab;
-                    m_AnchorManager.anchorPrefab = prefab;
+                    m_AnchorManager.anchorPrefab = prefab[i];
                     anchor = m_AnchorManager.AttachAnchor(plane, hit.pose);
                     m_AnchorManager.anchorPrefab = oldPrefab;
                     return anchor;
@@ -52,7 +57,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             }
 
             // Note: the anchor can be anywhere in the scene hierarchy
-            var gameObject = Instantiate(prefab, hit.pose.position, Quaternion.identity);
+            var gameObject = Instantiate(prefab[i], hit.pose.position, Quaternion.identity);
 
             // Make sure the new GameObject has an ARAnchor component
             anchor = gameObject.GetComponent<ARAnchor>();
@@ -83,9 +88,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
             {
                 // Raycast hits are sorted by distance, so the first one will be the closest hit.
                 var hit = s_Hits[0];
-
                 // Create a new anchor
-                var anchor = CreateAnchor(hit);
+                var anchor = CreateAnchor(hit, dd.value);
                 if (anchor)
                 {
                     // Remember the anchor so we can remove it later.

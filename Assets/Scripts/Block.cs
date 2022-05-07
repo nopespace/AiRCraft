@@ -21,6 +21,6 @@ public class Block : MonoBehaviour
 
     Vector3 integerPosition(Vector3 position)
     {
-        return new Vector3(Mathf.Round(position.x), Mathf.Round(position.y), Mathf.Round(position.z));
+        return new Vector3(Mathf.Round(position.x*10)/10, Mathf.Round(position.y*10)/10, Mathf.Round(position.z*10)/10);
     }
 }
