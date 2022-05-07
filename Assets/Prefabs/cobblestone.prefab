@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cobblestone
       objectReference: {fileID: 0}
+    - target: {fileID: 5902612262446454217, guid: 4a0907b54136d43a5a0620008ae5d2c7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6111707299048648127, guid: 4a0907b54136d43a5a0620008ae5d2c7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

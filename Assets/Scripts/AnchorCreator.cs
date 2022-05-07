@@ -3,7 +3,9 @@ using UnityEngine;
 using UnityEngine.XR.ARSubsystems;
 
 // Modified from ARCore foundation Samples
+// commented by qg
 namespace UnityEngine.XR.ARFoundation.Samples
+// namespace UnityEngine.XR.ARFoundation
 {
     [RequireComponent(typeof(ARAnchorManager))]
     [RequireComponent(typeof(ARRaycastManager))]
@@ -11,6 +13,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
     {
         [SerializeField]
         GameObject m_Prefab;
+
+        public Transform Panel_menu;
 
         public GameObject prefab
         {
@@ -66,6 +70,38 @@ namespace UnityEngine.XR.ARFoundation.Samples
 
         void Update()
         {
+            // TrackableHit hit;
+            // TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
+            //     TrackableHitFlags.FeaturePointWithSurfaceNormal;
+
+            // if (Frame.Raycast(touch.position.x, touch.position.y, raycastFilter, out hit))
+            // {
+            //     // Use hit pose and camera pose to check if hittest is from the
+            //     // back of the plane, if it is, no need to create the anchor.
+            //     if ((hit.Trackable is DetectedPlane) &&
+            //         Vector3.Dot(FirstPersonCamera.transform.position - hit.Pose.position,
+            //             hit.Pose.rotation * Vector3.up) < 0)
+            //     {
+            //         Debug.Log("Hit at back of the current DetectedPlane");
+            //     }
+            //     else
+            //     {
+            //         // Instantiate prefab at the hit pose.
+            //         var gameObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+
+            //         // Compensate for the hitPose rotation facing away from the raycast (i.e.
+            //         // camera).
+            //         gameObject.transform.Rotate(0, _prefabRotation, 0, Space.Self);
+
+            //         // Create an anchor to allow ARCore to track the hitpoint as understanding of
+            //         // the physical world evolves.
+            //         var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+
+            //         // Make game object a child of the anchor.
+            //         gameObject.transform.parent = anchor.transform;
+            //     }
+            // }
+            // comment from qg: here i commented the old code in order to try new version
             if (Input.touchCount == 0)
                 return;
 
